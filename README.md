@@ -190,3 +190,32 @@ Key findings:
 - Neither the concurrent model nor the lag-1 model consistently outperformed the Seasonal Naive + Drift baseline.
 - Aggregate retail sales alone is not a reliable leading indicator for Walmart's quarterly revenue growth.
 
+## Key Visualizations
+
+### Walmart Revenue Growth vs. FRED Retail-Sales Growth
+
+This chart compares Walmart's year-over-year revenue growth with the FRED retail-sales growth series aligned to Walmart's fiscal quarters.
+
+[Walmart Revenue vs FRED Retail Sales]
+<img width="1200" height="540" alt="fig1_yoy_overlay" src="https://github.com/user-attachments/assets/3ed6e4a6-48af-41c3-919b-cd5855d98f8f" />
+
+
+### Rolling Forecast Error
+
+This chart compares the rolling 8-quarter Mean Absolute Error of the seasonal-naive-plus-drift baseline and the retail-sales regression model.
+
+A lower MAE indicates better forecasting performance.
+
+[Rolling Forecast MAE]
+<img width="1200" height="840" alt="fig2_rolling_mae" src="https://github.com/user-attachments/assets/300954b7-9eef-4a13-9011-6ed8c7a3cec9" />
+
+
+### Rolling Regression Coefficient
+
+This chart shows how the relationship between lagged retail-sales growth and Walmart revenue growth changed over time.
+
+The coefficient weakened sharply after 2020, suggesting that the relationship was unstable across different economic periods.
+
+[Rolling Regression Beta] <img width="1200" height="540" alt="fig3_rolling_beta" src="https://github.com/user-attachments/assets/d257c55f-91fd-42f9-8d6b-b43adbf95160" />
+
+
