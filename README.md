@@ -320,4 +320,9 @@ The coefficient weakened sharply after 2020, suggesting that the relationship wa
 
 [Rolling Regression Beta] <img width="1200" height="540" alt="fig3_rolling_beta" src="https://github.com/user-attachments/assets/d257c55f-91fd-42f9-8d6b-b43adbf95160" />
 
+# Conclusion
+
+This project demonstrates a complete time-series forecasting workflow, from data collection and preprocessing to model evaluation and interpretation.
+
+Although FRED retail sales showed some relationship with Walmart revenue, the analysis found that this signal did not consistently outperform strong baseline forecasting methods. The project highlights the importance of rigorous validation and benchmarking before adopting economic indicators for predictive modeling.
 
