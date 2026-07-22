@@ -107,7 +107,109 @@ Visualized:
 ---
 
 ## Step 5
+## How to Run the Project
 
+### a. Clone the Repository
+
+Open a terminal or command prompt and run:
+
+```bash
+git clone https://github.com/Nandinikovuru/walmart-revenue-forecasting.git
+```
+
+Move into the project folder:
+
+```bash
+cd walmart-revenue-forecasting
+```
+
+### b. Create a Virtual Environment
+
+Creating a virtual environment is recommended so the project dependencies remain separate from other Python projects.
+
+On Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+On macOS or Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### c. Install the Required Libraries
+
+Run:
+
+```bash
+pip install -r requirements.txt
+```
+
+The project uses:
+
+- pandas
+- NumPy
+- Matplotlib
+- scikit-learn
+- statsmodels
+
+### d. Start Jupyter Notebook
+
+Run:
+
+```bash
+jupyter notebook
+```
+
+When Jupyter opens in your browser, select:
+
+```text
+analysis.ipynb
+```
+
+### e. Run the Notebook
+
+Inside Jupyter Notebook, select:
+
+```text
+Kernel → Restart & Run All
+```
+
+The notebook will:
+
+1. Load the Walmart revenue and FRED retail-sales datasets.
+2. Align monthly retail sales with Walmart's fiscal quarters.
+3. Calculate year-over-year growth.
+4. Build naive baseline forecasts.
+5. Fit concurrent and lagged OLS regression models.
+6. Run an expanding-window backtest.
+7. Calculate forecasting errors.
+8. Generate the project figures.
+
+## Expected Input Files
+
+The following files must be available in the repository:
+
+```text
+retail_sales_fred.csv
+walmart_revenue.csv
+```
+
+## Expected Outputs
+
+Running the notebook generates the following visualizations:
+
+```text
+fig1_yoy_overlay.png
+fig2_rolling_mae.png
+fig3_rolling_beta.png
+```
+
+## Step 6
 **Baseline Forecasting Models**
 
 Implemented:
@@ -119,7 +221,7 @@ These baselines provide a benchmark to determine whether the retail sales signal
 
 ---
 
-## Step 6
+## Step 7
 
 **Regression Models**
 
@@ -143,7 +245,7 @@ Acts as a true leading indicator.
 
 ---
 
-## Step 7
+## Step 8
 
 **Expanding Window Backtesting**
 
@@ -169,7 +271,7 @@ This avoids look-ahead bias and better reflects real-world forecasting.
 
 ---
 
-## Step 8
+## Step 9
 
 **Evaluation Metrics**
 
