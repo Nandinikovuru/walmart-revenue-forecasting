@@ -1,6 +1,6 @@
 # walmart-revenue-forecasting
 **Time-series forecasting project analyzing whether FRED retail sales can predict Walmart quarterly revenue using Python.**
-
+---
 **Project Overview**
 
 This project investigates whether publicly available U.S. retail sales data from the Federal Reserve Economic Data (FRED) database can be used as a leading indicator to forecast Walmart's quarterly revenue growth.
