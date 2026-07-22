@@ -1,4 +1,4 @@
-# walmart-revenue-forecasting
+## Walmart Revenue Forecasting using FRED Retail Sales
 **Time-series forecasting project analyzing whether FRED retail sales can predict Walmart quarterly revenue using Python.**
 ---
 # Project Overview
@@ -327,3 +327,12 @@ This project demonstrates a complete time-series forecasting workflow, from data
 
 Although FRED retail sales showed some relationship with Walmart revenue, the analysis found that this signal did not consistently outperform strong baseline forecasting methods. The project highlights the importance of rigorous validation and benchmarking before adopting economic indicators for predictive modeling.
 
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Statsmodels
+- Scikit-learn
+- Jupyter Notebook
